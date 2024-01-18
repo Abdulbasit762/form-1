@@ -1,0 +1,45 @@
+
+body{
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    border-radius: 55px;
+}
+
+label{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+input{
+    background-color: black;
+    color: #feae96;
+    width: 400px;
+    border: none;
+    border-bottom: 3px solid rgb(4, 0, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+button{
+    background-color: #cac6c6;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
